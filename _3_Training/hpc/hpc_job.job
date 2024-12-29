@@ -1,0 +1,56 @@
+#!/bin/bash
+
+#SBATCH -N 1                        # number of nodes
+#SBATCH --job-name=ll_mixed          # Job name
+#SBATCH --output=job.%j.out         # Name of output file (%j expands to jobId)
+#SBATCH --cpus-per-task=1           # Schedule cpus
+#SBATCH --mem=20G                   # memory per node
+#SBATCH --time=7-00:00:00           # Max Run time (hh:mm:ss)
+#SBATCH --partition=acltr           # Run on either the Red or Brown queue
+#SBATCH --gres=gpu:a100_40gb:1           # If you are using CUDA dependent packages 
+#SBATCH --mail-type=BEGIN,FAIL,END  # Send an email when the job finishes or fails
+
+# showing which node it is running on
+echo "Running on $(hostname):" 
+
+# loading anaconda
+echo "Loading anaconda"
+module load Anaconda3 
+
+# sourcing our .bashrc
+echo "Sourcing .bashrc"
+source /home/easc/.bashrc 
+
+#activating the virtual environment
+echo "Activating virtual environment"
+source activate HPC_env_easc_NEW_7
+
+# logging in to huggingfac
+echo "Logging in to huggingface"
+huggingface-cli login --token "<token>"
+
+export NCCL_P2P_LEVEL=NVL
+nvidia-smi nvlink --status
+export NCCL_DEBUG=INFO
+export TOKENIZERS_PARALLELISM=false
+export NCCL_ASYNC_ERROR_HANDLING=1
+export NCCL_TIMEOUT=7200  
+export NCCL_IB_DISABLE=0
+export NCCL_P2P_DISABLE=0
+
+# run script
+echo "Training embedding on llama with morf in paralel"
+
+python train.py \
+--num_epochs 1 \
+--batch_size 1 \
+--learning_rate 0.0006 \
+--gradient_accumulation_steps 1 \
+--max_length_To_Give 1024 \
+--morf_bpe \
+--dataset_used "test.txt" \
+--tokenizer_name "meelu/DA-MIXED-CEREBRAS-TOKEN" \
+--model_name "cerebras/Cerebras-GPT-111M" \
+--hf_dir "meelu"
+
+echo "Done"

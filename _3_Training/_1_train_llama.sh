@@ -1,0 +1,12 @@
+python _3_Training/train.py \
+--num_epochs 1 \
+--batch_size 1 \
+--learning_rate 0.0003 \
+--gradient_accumulation_steps 1 \
+--max_length_To_Give 1024 \
+--morf_bpe \
+--Fintune_Embeddings_Only \
+--dataset_used "giga_small.txt" \
+--tokenizer_name "meelu/DA-MORPH-LLAMA3.2-TOKEN" \
+--model_name "meta-llama/Llama-3.2-1B" \
+--hf_dir "meelu"

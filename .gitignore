@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+_1_MorfessorModel/Models/
+_2_Tokenizer/data/morf_table.json
+_1_MorfessorModel/Data/corpus/Most_Frequent_10_000_000.txt
+
 # Distribution / packaging
 .Python
 build/
