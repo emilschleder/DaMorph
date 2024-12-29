@@ -5,7 +5,7 @@ import argparse, os
 parser = argparse.ArgumentParser(description="Train a BPE tokenizer")
 parser.add_argument('--save_path', type=str, required=True, help='Path to save the trained tokenizer')
 parser.add_argument('--vocab_size', type=int, required=True, help='Vocabulary size for the tokenizer')
-parser.add_argument('--data_path', type=str, required=True, help='Path to the dataset files')
+parser.add_argument('--data_path', type=str, required=True, help='Path to the dataset files. Can be a folder or a single file.')
 
 args = parser.parse_args()
 save_path = args.save_path
@@ -16,14 +16,13 @@ def build_file_list(data_folder):
     training_files = []
     for folder in os.listdir(data_folder):
         current_folder = os.path.join(data_folder, folder)
-        
-        if not any(term in current_folder.split('/') for term in ['reddit.da']):
-            if os.path.isdir(current_folder):  # Directory
-                    training_files.extend([os.path.join(current_folder, f) for f in os.listdir(current_folder) if f.endswith('.txt') or f.endswith('.danish')])
-                    
-            elif os.path.isfile(current_folder):  # File
-                if current_folder.endswith('.txt') or current_folder.endswith('.danish'):
-                    training_files.append(current_folder)
+    
+        if os.path.isdir(current_folder):  # Directory
+                training_files.extend([os.path.join(current_folder, f) for f in os.listdir(current_folder)])
+                
+        elif os.path.isfile(current_folder):  # File
+            if current_folder.endswith('.txt') or current_folder.endswith('.danish'):
+                training_files.append(current_folder)
     
     print(f"Found {len(training_files)} training files")
     

@@ -10,16 +10,6 @@ prompts = [
         }
     },
     {
-        'category': 'Idiomatiske Udtryk',
-        'text': "Efter at have arbejdet hårdt hele ugen, besluttede Peter sig for at tage tyren ved hornene og ",
-        'generation_params': {
-            'top_k': 40,
-            'top_p': 0.9,
-            'temperature': 0.8,
-            'category': 'Idiomatiske Udtryk'
-        }
-    },
-    {
         'category': 'Dialog med Emotioner',
         'text': "Maria: 'Hvorfor i alverden gjorde du det? Jeg kan ikke forstå, at du ' ",
         'generation_params': {

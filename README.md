@@ -48,11 +48,16 @@ conda activate damorph_env
 conda install pip 
 pip install -r requirements.txt
 
-# Run all Morfessor predictions and build graph
-_1_MorfessorModel/run_all_morfessor.sh
+# Build morfessor predictions graph
+_1_MorfessorModel/_2_Evaluate/_2_generate_plot.sh
 ``` 
 
 ### Experiments scripts
+
+__IMPORTANT NOTE__
+
+    Some scripts require substantial computing power, and needs to run on the ITU hpc. These scripts have been marked with (HPC), and requires a special conda environment, which can be found in _3_Training/hpc/hpc_env.yaml for the training and in _4_Evaluation/scandeval/hpc_scandeval_env.yaml for running scandeval evaluation.
+
 The following shell scripts are available to run:
 
     _1_MorfessorModel:
@@ -63,22 +68,21 @@ The following shell scripts are available to run:
         _1_MorfessorModel/run_all_morfessor.sh
 
     _2_Tokenizer:
-        _2_Tokenizer/_1_build_bpe.sh
+        _2_Tokenizer/_1_build_bpe.sh (Requires a folder with txt files to train on)
         _2_Tokenizer/_2_build_DaMorph.sh
 
     _3_Training:
-        _3_Training/_1_train_cerebras.sh
-        _3_Training/_1_train_llama.sh
+        _3_Training/_1_train_cerebras.sh (HPC - hpc_env.yaml)
+        _3_Training/_1_train_llama.sh (HPC - hpc_env.yaml)
 
     _4_Evaluation:
         _4_Evaluation/_1_tokenizer_eval.sh
-        _4_Evaluation/_2_bytes_eval.sh
-        _4_Evaluation/_3_scandeval_eval.sh
-        _4_Evaluation/_4_human_eval.sh
-        _4_Evaluation/run_all_evals.sh
+        _4_Evaluation/_2_bytes_eval.sh (HPC - hpc_env.yaml)
+        _4_Evaluation/_3_scandeval_eval.sh (HPC - hpc_scandeval_env.yaml)
+        _4_Evaluation/_4_human_eval.sh (HPC - hpc_env.yaml)
 
     _5_Analysis:
-        _5_Analysis/_1_extract_results.sh
+        _5_Analysis/_1_extract_results.sh (Requires access to ITU HPC to download .out-files)
 
 
 ## Description of the scripts:
@@ -115,7 +119,7 @@ The following shell scripts are available to run:
 
 
 ## Models and tokenizers are available at the two collections:
-The final model is available in 4 variations on Huggingface:
+The models are available on Huggingface:
 
 __Model Collection:__ https://huggingface.co/collections/meelu/damorph-676fc4681265035eb20a0ad1
 
