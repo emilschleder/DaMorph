@@ -59,6 +59,7 @@ __IMPORTANT NOTE__
 Some scripts require substantial computing power, and needs to run on the ITU hpc. These scripts have been marked with (HPC), and requires a special conda environment, which can be found in _3_Training/hpc/hpc_env.yaml for the training and in _4_Evaluation/scandeval/hpc_scandeval_env.yaml for running scandeval evaluation.
 
 __Scripts__
+
 The following shell scripts are available to run:
 
     _1_MorfessorModel:
