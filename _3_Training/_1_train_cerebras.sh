@@ -1,0 +1,11 @@
+python _3_Training/train.py \
+--num_epochs 1 \
+--batch_size 18 \
+--learning_rate 0.0006 \
+--gradient_accumulation_steps 1 \
+--max_length_To_Give 1024 \
+--morf_bpe \
+--dataset_used "giga_small.txt" \
+--tokenizer_name "meelu/DA-MIXED-CEREBRAS-TOKEN" \
+--model_name "cerebras/Cerebras-GPT-111M" \
+--hf_dir "meelu"

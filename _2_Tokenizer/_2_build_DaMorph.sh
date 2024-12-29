@@ -1,0 +1,11 @@
+python _2_Tokenizer/DaMorph_tokenizer.py \
+--dataset_name "meelu/mixed.440M" \
+--morf_vocab_size 30157 \
+--output_dir "_2_Tokenizer/tokenizers" \
+--morf_bpe \
+--bpe_tokenizer "meelu/tokenizer_bpe_20100_Cerebras" \
+--bpe_tokenizer_size 20100 \
+--morfessor_model_path "_2_Tokenizer/Model400.bin" \
+--morf_table_file "./_2_Tokenizer/data/morf_table.json" \
+--chunks_file "./_2_Tokenizer/data/chunks.json" \
+--hf_dir "meelu"

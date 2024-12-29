@@ -1,0 +1,424 @@
+stol stol
+lille lille
+op op
+barn barn
+menneske menneske
+fugl fugl
+stor stor
+gammel gammel
+spids spids
+hård hård
+gom gom
+måned måned
+bryn bryn
+snot snot
+skole skole
+port port
+idol idol
+kammerat kammerat
+lev lev
+sigt sigt
+sigte sigte
+tyd tyd
+spring spring
+sælg sælg
+trold trold
+flise flise
+fiste fiste
+ud ud
+seks seks
+pink pink
+vilje vilje
+stue stue
+billede billede
+vært vært
+små små
+ind ind
+blomst blomst
+gilde gilde
+svær svær
+bal bal
+ballet ballet
+bold bold
+lav lav
+kaffe kaffe
+by by
+bus bus
+mål mål
+vis vis
+tand tand
+penge penge
+mål mål
+tro tro
+guld guld
+æble æble
+felt felt
+del del
+glat glat
+synd synd
+lad lad
+ære ære
+skriv skriv
+vand vand
+hane hane
+pilot pilot
+stejl stejl
+fod fod
+kasse kasse
+klokke klokke
+krans krans
+jævn jævn
+mangl mangl
+dam dam
+søm søm
+ud ud
+sag sag
+træ træ
+tårn tårn
+mærke mærke
+løs løs
+pris pris
+tog tog
+fisk fisk
+hofte hofte
+pige pige
+støv støv
+medalje medalje
+stær stær
+otte otte
+ur ur
+linje linje
+is is
+liv liv
+job job
+minaret minaret
+morgen morgen
+bord bord
+tunnel tunnel
+snue snue
+under under
+juice juice
+lækker lækker
+idé idé
+rig rig
+rød rød
+told told
+ny ny
+skede skede
+brand brand
+skade skade
+aften aften
+flade flade
+ret ret
+flet flet
+klub klub
+pædagog pædagog
+vogn vogn
+halv halv
+år år
+node node
+stol stol
+krimi krimi
+høj høj
+sol sol
+plads plads
+gryde gryde
+steg steg
+buks buks
+pulver pulver
+tud tud
+skrål skrål
+fod fod
+sål sål
+lang lang
+sport sport
+ære ære
+skinne skinne
+atom atom
+magt magt
+kirke kirke
+tærskel tærskel
+line line
+gulv gulv
+hæl hæl
+dyr dyr
+hun hun
+skovsnegl skov snegl
+husgavl hus gavl
+fradrag fra drag
+fadøl fad øl
+farfar far far
+skadestue skade stue
+håndværk hånd værk
+blodtryk blod tryk
+plantevækst plante vækst
+efterår efter år
+filterkaffe filter kaffe
+autostol auto stol
+nervebane nerve bane
+nervesystem nerve system
+rygmarv ryg marv
+pulsåre puls åre
+tyndtarm tynd tarm
+urinblære urin blære
+livmoder liv moder
+fritid fri tid
+vildhund vild hund
+flodhest flod hest
+aftenbøn aften bøn
+flerpartisystem fler parti system
+modvilje mod vilje
+vrangbillede vrang billede
+gildehal gilde hal
+maskebal maske bal
+pekannød pekan nød
+basketbold basket bold
+buegang bue gang
+brandsår brand sår
+kvindekamp kvinde kamp
+bilkirkegård bil kirke gård
+billedskrift billed skrift
+klodsmajor klods major
+frokoststue frokost stue
+plateauhæl plateau hæl
+rodfrugt rod frugt
+perlekæde perle kæde
+glansbillede glans billede
+tigerøje tiger øje
+fastedag faste dag
+skolevej skole vej
+skønånd skøn ånd
+selvportræt selv portræt
+dueblå due blå
+båltale bål tale
+havregryn havre gryn
+chokbølge chok bølge
+indtage ind tage
+plakatsøjle plakat søjle
+vokskabinet voks kabinet
+kraniebrud kranie brud
+indspille ind spille
+flisevæg flise væg
+svigerfamilie sviger familie
+oversprøjte over sprøjte
+opløse op løse
+morgenmad morgen mad
+skrotbil skrot bil
+fakkeltog fakkel tog
+opkøbe op købe
+frakkeskåner frakke skån er
+travbane trav bane
+dambrug dam brug
+proppenge prop penge
+bisværm bi sværm
+sandflugt sand flugt
+kortlæser kort læs er
+grønjord grøn jord
+udstå ud stå
+husdyr hus dyr
+planteskole plante skole
+kommuneskole kommune skole
+grensaks gren saks
+perlegrus perle grus
+gåfelt gå felt
+jagtlov jagt lov
+frimurer fri murer
+efterbyrd efter byrd
+bygrænse by grænse
+tennisketsjer tennis ketsjer
+pivskid piv skid
+fodballe fod balle
+madkasse mad kasse
+dirigentklokke dirigent klokke
+sladdertaske sladder taske
+cigarhandler cigar handler
+tenorstemme tenor stemme
+kransnålalge krans nål alge
+udplant ud plant
+stopklods stop klods
+specialstyrke special styrke
+femhundrede fem hundrede
+træstub træ stub
+vandtårn vand tårn
+rygrad ryg rad
+prisklasse pris klasse
+guldfisk guld fisk
+sagsøg sag søg
+bjergtog bjerg tog
+plejehjem plej e hjem
+verdenskrig verden s krig
+landstræner land s træn er
+skrivelyst skriv e lyst
+løbesko løb e sko
+synspunkt syn s punkt
+småbørnsfamilie små børn s familie
+bibliotekspenge bibliotek s penge
+dæksmænd dæk s mænd
+sportsdans sport s dans
+krigsdans krig s dans
+vandreferie vandr e ferie
+retsregel ret s regel
+voldskvinde vold s kvinde
+ræveskind ræv e skind
+angrebsvinkel angreb s vinkel
+gåsedun gås e dun
+gradsadverbial grad s adverbial
+regionsplan region s plan
+folkeparti folk e parti
+æressag ære s sag
+manderolle mand e rolle
+aftensmad aften s mad
+frysepizza frys e pizza
+brudepige brud e pige
+diskretionslinje diskretion s linje
+livscyklus liv s cyklus
+syltetøj sylt e tøj
+foldecykel fold e cykel
+salgspris salg s pris
+andelsselskab andel s selskab
+bryllupsgave bryllup s gave
+badebro bad e bro
+lånekasse lån e kasse
+skydepram skyd e pram
+grundlovsbrud grund lov s brud
+lensgreve len s greve
+husmandskost hus mand s kost
+rygekupé ryg e kupé
+dødemandsknap død e mand s knap
+fritidshjem fri tid s hjem
+folkeeventyr folk e eventyr
+flæskeside flæsk e side
+højfjeldssol høj fjeld s sol
+modstandskraft mod stand s kraft
+skavejern skav e jern
+sportshal sport s hal
+berøringsflade be rør ing s flade
+fritidshus fri tid s hus
+dåbsritual dåbs ritual
+myggestik myg g e stik
+stævnemøde stævn e møde
+børnecykel børn e cykel
+hvepsevåge hveps e våge
+skibsbygger skib s byg g er
+landsret land s ret
+købmandsskole køb mand s skole
+formiddagsavis for middag s avis
+fredsdue fred s due
+tofagskandidat to fag s kandidat
+hønsestige høns e stige
+kropsvisitation krop s visitation
+lånekapital lån e kapital
+mandsmod mand s mod
+mistænk mis tænk
+import im port
+bibringe bi bringe
+benyt be nyt
+ugift u gift
+bebuder be bud er
+bedøm be døm
+ekskone eks kone
+vansmægte van smægt e
+forvent for vent
+samarbejd sam arbejd
+afstem af stem
+forespørg fore spørg
+henret hen ret
+besind be sind
+belæg be læg
+transport trans port
+foregiv fore giv
+refluks re fluks
+demoraliser de moraliser
+debrief de brief
+urkraft ur kraft
+genyd gen yd
+genvælg gen vælg
+illegal il legal
+illoyal il loyal
+immobil im mobil
+impotent im potent
+illegitim il legitim
+intolerant in tolerant
+immateriel im materiel
+inaktiv in aktiv
+indirekte in direkte
+inhabil in habil
+inhuman in human
+demasker de masker
+decentral de central
+demonter de monter
+devaluer de valuer
+deranger de ranger
+deformer de former
+disharmoni dis harmoni
+disfavør dis favør
+diskriminer dis kriminer
+dysfunktion dys funktion
+reager re ager
+reformer re former
+relancer re lancer
+rekonstruer re konstruer
+revurder re vurder
+reaktiv re aktiv
+syntaks syn taks
+venlig ven lig
+årlig år lig
+tænkning tænk ning
+trivsel triv sel
+retning ret ning
+formodning formod ning
+laborant labor ant
+plejer plej er
+splitning split ning
+nyhed ny hed
+mening men ing
+hellig hel lig
+svømmer svøm m er
+synder synd er
+leder led er
+forsker forsk er
+langsom lang som
+smitsom smit som
+sandhed sand hed
+tydning tyd ning
+rykning ryk ning
+rokering roker ing
+dribling dribl ing
+hårdhed hård hed
+trolig tro lig
+kedsom ked som
+menig men ig
+trolderi trold eri
+kristendom kristen dom
+ukuelig u kue lig
+løsning løs ning
+skoldhed skold hed
+skrivelse skriv else
+gendrivelse gen driv else
+rødeste rød e ste
+brillerne brille r ne
+højere høj ere
+venligere ven lig ere
+spiste spis te
+lånte lån te
+kendte kend te
+mandater mandat er
+forstuen for stue n
+symbolernes symbol er ne s
+sværeste svær est e
+diskuterede diskuter ede
+bybussen by bus s en
+pligter pligt er
+hakkede hak k e de
+rutsje rutsj e
+direktørerne direktør er ne
+bodegaers bodega er s
+sviner svin er
+tænker tænk er
+sceptrene scept re ne
+baronerne baron er ne
+galest gal est
+fængslerne fængsl er ne
+søgende søg ende
+hoften hofte n
+urmageren ur mager en
