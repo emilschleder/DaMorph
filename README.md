@@ -10,6 +10,14 @@
 
 Authors: Emil Schledermann, Mikkel Wildner Kildeberg & Nicolaj Larsen
 
+NB: Due to Git LFS quotas, some large files have been left out of the repo. If you're intrested in receiving these, please contact us at:
+
+easc@itu.dk 
+
+mwki@itu.dk
+
+nicla@itu.dk
+
 # DaMorph
 Danish Morphological Tokenizer
 
